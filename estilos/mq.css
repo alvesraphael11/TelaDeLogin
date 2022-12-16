@@ -1,3 +1,5 @@
+/*Telas pequenas e médias: Landscape*/
+
 @media screen and (max-width: 768px) and (orientation: landscape) {
     main {
         width: 550px;
@@ -5,7 +7,7 @@
     }
 
     section#logo {
-        height: 302px;
+        height: 300px;
         width: 170px;
         border-radius: 15px 0px 0px 15px;
         float: left;
@@ -32,6 +34,51 @@
     button, a {
         display: inline-table;
         width: 156px;
+        margin-top: -1px;
+    }
+
+    a {
+        padding-top: 8px;
+    }
+}
+
+/*Telas grandes*/
+
+@media screen and (min-width: 1025px) {
+
+    main {
+        width: 660px;
+        height: 360px;
+    }
+
+    section#logo {
+        height: 360px;
+        width: 204px;
+        border-radius: 15px 0px 0px 15px;
+        float: left;
+    }
+
+    section#login {
+        float: right;
+        width: 384px;
+        margin-top: -7px;
+    }
+
+    h1 {
+        margin: 35px 0px 5px;
+    }
+
+    form {
+        margin: 55px 0px 0px;
+    }
+
+    input {
+        width: 340px;
+    }
+
+    button, a {
+        display: inline-table;
+        width: 188px;
         margin-top: -1px;
     }
 
