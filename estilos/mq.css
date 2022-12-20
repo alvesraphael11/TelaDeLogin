@@ -42,6 +42,50 @@
     }
 }
 
+/*Telas médias*/
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    main {
+        width: 360px;
+        height: 660px;
+        padding: 36px;
+        font-size: 1.2em;
+    }
+    
+    section#logo {
+        height: 204px;
+        width: 360px;
+        margin: -36px -36px 0px -36px;
+    }
+    
+    h1 {
+        margin: 24px 0px 18px;
+    }
+    
+    form {
+        margin: 36px 0px;
+    }
+    
+    span.material-symbols-outlined {
+        height: 43px;
+        width: 43px;    
+        transform: translate(-52px);
+        font-size: 1.9em;
+    }
+    
+    input {
+        height: 42px;
+        transform: translateY(-11px);
+        margin-right: -56px;
+        width: 232px;
+    }
+    
+    div.inputs, button, a {
+        margin: 12px 0px;
+        height: 48px;
+    }
+}
+
 /*Telas grandes*/
 
 @media screen and (min-width: 1025px) {
